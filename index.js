@@ -60,10 +60,10 @@ log(chalk.yellowBright.bold.underline("\nYour score is ")+ chalk.bgMagenta.bold(
 for(i=0;i<counting.length;i++){
   var highScore=counting[i];
   if(count>highScore.score){
-    log(chalk.bgWhite.magentaBright.bold("\nHurray! Your Score is HIGHEST"));
+    log(chalk.bgWhite.magentaBright.bold("\nHurray! Your Score is HIGHEST\n"));
   }else{
-    log(chalk.bgWhite.red("Read Again"));
+    log(chalk.bgWhite.red("\nRead Again"));
   }
 }
 
-slog(chalk.yellow.bold("\nIf your Score is Highest send me the Screenshot"));
+slog(chalk.yellow.bold("\nIf your Score is Highest send me the Screenshot\n"));
